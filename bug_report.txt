@@ -1,0 +1,41 @@
+Bug Report: Smart Home Automation System
+
+Bug ID: SHAS-001
+
+Title: Delayed Response to Voice Commands
+
+Severity: High
+
+Description:
+Users are experiencing significant delays in the system's response to voice commands via the integrated virtual assistant (e.g., Amazon Alexa). When issuing commands such as "turn off the living room lights" or "set the thermostat to 72 degrees," the system takes an average of 10-15 seconds to execute the command, whereas previously, responses were almost instantaneous.
+
+Steps to Reproduce:
+
+Activate the virtual assistant (e.g., Alexa) by voice command or manually through the app.
+Issue a command to control a smart device connected to the system (e.g., lights, thermostat).
+Observe the time taken for the system to execute the command and provide feedback.
+Expected Behavior:
+The system should respond promptly to voice commands, executing actions within a few seconds of receiving the command.
+
+Actual Behavior:
+There is a significant delay (10-15 seconds) between issuing voice commands and the system executing the corresponding actions, leading to a frustrating user experience and reduced efficiency in controlling smart home devices.
+
+Environment:
+
+Smart home automation system version: 2.1.0
+Virtual assistant integration: Amazon Alexa
+Network environment: Wi-Fi connection (802.11ac), average signal strength (-60dBm), high-speed internet connection (100Mbps)
+Additional Information:
+
+This issue started occurring approximately two weeks ago, coinciding with the installation of the latest software update (version 2.1.0).
+Users have reported experiencing delays consistently across multiple smart devices integrated with the system.
+Restarting the system or individual devices temporarily alleviates the issue, but the delays reoccur shortly afterward.
+Attachments:
+
+Screenshots of voice commands issued and system response times.
+Logs from the smart home automation system detailing the execution of voice commands and any associated errors or delays.
+Assigned To: Software Development Team
+
+Priority: High
+
+Status: Open
